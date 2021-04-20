@@ -1,0 +1,206 @@
+.unordered { 
+    list-style-type: square; 
+    line-height: 170%;
+} 
+
+.nested-ul { 
+    list-style-type: circle;
+}
+
+.unordered {
+    background: #05568d;
+    padding: 20px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.unordered li {
+    background: #1673c0;
+    margin: 5px;
+}
+    
+.nested-ul li {
+    background: #3b8cce;
+    margin: 5px;
+}
+
+.ordered {
+    background: #11834a;
+    padding: 20px;
+    width: 20%;
+    font-family: 'Brush Script MT', serif;
+    font-size: 1.3em;
+}
+    
+.ordered li {
+    background: #3ab663;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.custom-box-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+    
+.custom-box-list li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+}
+    
+.custom-box-list li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(36, 148, 133);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.list-image {
+    list-style: none;  
+    padding-left: 0;
+}
+    
+.list-image li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+    
+.list-image li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('fire.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.popular-sites {
+    list-style: none;
+    padding-left: 0;
+}
+    
+.popular-sites li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+
+.popular-sites li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('internet.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lista {
+    list-style: none;
+    padding-left: 0;
+}
+    
+.lista li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+
+.lista li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('ice-cream.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+table, td, th { 
+    border: 1px solid black; 
+    border-collapse: collapse;
+} 
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+caption { 
+    caption-side: top; 
+    text-align: center; 
+    font-style: italic; 
+    font-weight: bold; 
+    color: darkslateblue; 
+} 
+
+.table-simple th {
+    background-color: darkslategray; 
+    color: black; 
+} 
+  
+.table-simple tr:nth-child(even) { 
+    background-color: #9db0b3; 
+} 
+  
+.table-simple tr:nth-child(odd) { 
+    background-color: rgb(104, 128, 131); 
+} 
+  
+.table-simple tr:hover { 
+    background-color: #7dc0ba; 
+} 
+
+
+.head-body-foot thead {
+    color: rgb(31, 26, 32);
+    background-color: rgb(157, 93, 182);
+}
+
+.head-body-foot tbody {
+    color: rgb(188, 182, 212);
+    font-weight: bold;
+    background-color: rgb(52, 27, 145);
+}
+
+.head-body-foot tfoot {
+    color: rgb(13, 3, 39);
+    background-color: rgb(209, 200, 226);
+    font-weight:bold ;
+}
+
+.head-body-foot thead:hover {
+    background-color: #5c5dc2;
+}
+
+.head-body-foot tbody:hover {
+    background-color: #572d74;
+}
+
+.head-body-foot tfoot:hover {
+    background-color: rgb(105, 103, 202);
+}
+
+.telefon tr:hover {
+    background-color: green;
+}
+
+.telefon2 td:hover {
+    background-color: lightcoral;
+}
